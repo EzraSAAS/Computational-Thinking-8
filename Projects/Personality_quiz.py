@@ -38,3 +38,9 @@ if answer == "B":
     logic_points += 1
 elif answer == "A":
     morality_points += 1
+
+# end of quiz:
+if morality_points > logic_points:
+    print("You make decisions based on your morals")
+elif morality_points < logic_points:
+    print("You make decisions based on logic ")
