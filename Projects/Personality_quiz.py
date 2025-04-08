@@ -20,20 +20,20 @@ if answer == "A":
 elif answer == "B":
     morality_points += 1
    
-    answer = input("When making group decisions do you A) Look at the statistics or the logical way for your brain to problem solve or B) Focus more on how you and/or other people feel when making a decision for the group")
+answer = input("When making group decisions do you A) Look at the statistics or the logical way for your brain to problem solve or B) Focus more on how you and/or other people feel when making a decision for the group")
 if answer == "A":
     logic_points += 1
 elif answer == "B":
     morality_points += 1
 
 
-    answer = input("Would you say when thinking about things logically you A) base them off your own inner rules or B) Base them off societies rules and/or expectations")
+answer = input("Would you say when thinking about things logically you A) base them off your own inner rules or B) Base them off societies rules and/or expectations")
 if answer == "B":
     logic_points += 1
 elif answer == "A":
     morality_points += 1
 
-    answer = input("Do you think you A) base decisions based on thinking or B) base them off your morals")
+answer = input("Do you think you A) base decisions based on thinking or B) base them off your morals")
 if answer == "B":
     logic_points += 1
 elif answer == "A":
