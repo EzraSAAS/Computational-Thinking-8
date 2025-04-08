@@ -43,4 +43,4 @@ elif answer == "A":
 if morality_points > logic_points:
     print("You make decisions based on your morals")
 elif morality_points < logic_points:
-    print("You make decisions based on logic ")
+    print("You make decisions based on logic")
