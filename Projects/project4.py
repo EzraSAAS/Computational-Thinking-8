@@ -19,13 +19,13 @@ def create_sprite(image_filename, x=0, y=0):
 
 # Section 2 - Variables
 # TODO - add starting values for all the variables
-x1 =-100
+x1 =-200
 y1 =100
-x2 =-100
+x2 =-200
 y2 =50
-x3 =-100
+x3 =-200
 y3 =0
-x4 =-100
+x4 =-200
 y4 =-50
 
 
@@ -41,7 +41,7 @@ t4 = create_sprite("baseball",x4,y4)
 # Section 4 - Racing
 # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # TODO - explain here which sprites are faster or slower
-for i in range(28):
+for i in range(30):
     x1 += 12
     x2 += 7
     x3 += random.randint(8,19)
