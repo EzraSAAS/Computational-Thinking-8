@@ -53,7 +53,7 @@ for i in range(30):
     time.sleep(0.1)
 
 
-# Section 5 - Winner
+# Section 5 - Winner line
 # TODO - complete the elif for player 2 winning
 # TODO - write another elif for player 3 and player 4
 if x1 >= x2 and x1 >= x3 and x1 >= x4:
