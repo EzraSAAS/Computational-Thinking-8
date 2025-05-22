@@ -78,8 +78,8 @@ while True:
 		obstacles.append(s2)
     
 	for s2 in obstacles:
-		s2.forward(10)
-		if get_distance(s1,s2) < 10:
+		s2.forward(15)
+		if get_distance(s1,s2) < 15:
 			score += 1
 			s2.hideturtle()
 			obstacles.remove(s2)
