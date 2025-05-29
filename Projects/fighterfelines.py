@@ -98,8 +98,8 @@ while True:
 
 	window.update()
 
-	# if :
-	# 	break
+	if score == 5:
+		break
 	
 
 print("Game Over")
