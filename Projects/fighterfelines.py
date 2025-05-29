@@ -31,8 +31,9 @@ window.tracer(0)
 s1 = create_sprite("r-cat")
 set_background("map")
 s1.direction = "right"
-
+# rat sprite text
 s2 = create_sprite("rat")
+s2.write("Catch me if you can!", font = ("Arial", 10, "normal"))
 # Section 3: Controls
 # TODO - define your controls
 def move_up():
@@ -66,15 +67,16 @@ window.onkeypress(move_right, "d")
 window.listen()
 timer = 0
 obstacles = []
+score = 0
 while True:
-	time.sleep(0.01)
+	time.sleep(0.1)
 	timer += 1  
 	
-	if timer % 100 == 0:
+	if timer % 10 == 0:
 		y_position = random.randint(-250, 250)
 		x_position = random.randint(-250, 250)
 		s2 = create_sprite("rat")
-		s2.setheading(random.randint)(0, 360)
+		s2.setheading(random.randint(0, 360))
 		obstacles.append(s2)
     
 	for s2 in obstacles:
