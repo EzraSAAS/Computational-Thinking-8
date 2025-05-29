@@ -41,6 +41,7 @@ t4 = create_sprite("baseball",x4,y4)
 # Section 4 - Racing
 # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # TODO - explain here which sprites are faster or slower
+# the sprites that have the best chance of winning are the ones who have the random randint but 9,20 will have the best chance at winning because it has one higher then 8,19 with a better chance of scoring a higher number.
 for i in range(30):
     x1 += 12
     x2 += 7
